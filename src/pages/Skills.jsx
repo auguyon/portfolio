@@ -1,63 +1,84 @@
-import React from "react";
-import data from "./data.json";
+import React from 'react';
+import { t } from '@lingui/macro';
 
-function RoundedSkill({ title }) {
-	return <div class='flex bg-red-400 rounded-full py-2 px-4 m-1'>{title}</div>;
-}
+import { ReactComponent as PencilIcon } from '../assets/icons/pencil.svg';
+import { ReactComponent as SkillsIcon } from '../assets/icons/skills.svg';
+import { ReactComponent as ToolBoxIcon } from '../assets/icons/tool-box.svg';
+import { ReactComponent as WorldIcon } from '../assets/icons/worldwide.svg';
 
-function Title({ title }) {
-	return <div class='text-4xl text-gray-900'>{title}</div>;
-}
-
-function Skills() {
+function RoundedSkill({ title, backgroundColor }) {
 	return (
-		<div id='skills_id' class='h-auto w-full flex bg-gray-100'>
-			<div class='h-auto flex-1 flex-col justify-around py-10 px-8'>
-				<div class='flex flex-col mb-4'>
-					<Title title='Skills' />
-					<div class='grid grid-cols-3 ml-2 mt-2'>
-						<RoundedSkill title='React' />
-						<RoundedSkill title='React-Native' />
-						<RoundedSkill title='AWS serverless' />
-						<RoundedSkill title='DB NoSQL' />
-					</div>
-				</div>
-				<div class='flex flex-col'>
-					<Title title='Langues' />
-					<div class='grid grid-cols-1 ml-2 mt-2'>
-						<RoundedSkill title='Français - Natal' />
-						<RoundedSkill title='Anglais - B2' />
-						<RoundedSkill title='Espagnol - Débutant' />
-					</div>
-				</div>
-			</div>
-			<div class='h-auto flex-1 py-10 px-8 justify-around bg-gray-200'>
-				<div class='flex flex-col mb-4'>
-					<Title title='Outils' />
-					<div class='flex flex-col ml-2 mt-2'>
-						<div>Visual Studio Code</div>
-						<div>Xcode</div>
-						<div>Android Studio</div>
-						<div>Mac, Linux et Windows</div>
-						<div>Git</div>
-						<div>MS Office</div>
-						<div></div>
-					</div>
-				</div>
-				<div class='flex flex-col'>
-					<Title title='Savoir-Etre' />
-					<div class='flex flex-col ml-2 mt-2'>
-						<div>Rigoureux</div>
-						<div>Curieux</div>
-						<div>Passionné</div>
-						<div>Pro-actif</div>
-						<div>Autonome</div>
-						<div>Adaptable</div>
-					</div>
-				</div>
+		<div className={['rounded-full py-2 px-4 m-1', backgroundColor].join(' ')} key={title}>
+			{title}
+		</div>
+	);
+}
+
+function Title({ icon, title }) {
+	return (
+		<div className='flex flex-row items-center mb-5 text-3xl text-gray-800'>
+			{icon}
+			{title}
+		</div>
+	);
+}
+
+function DisplayRoundedItems({ icon, title, items, backgroundColor }) {
+	return (
+		<div className='flex flex-col mb-12'>
+			<Title icon={icon} title={title} />
+			<div className='h-auto w-full grid grid-cols-3 gap-2'>
+				{items.map((item, index) => (
+					<RoundedSkill title={item} backgroundColor={backgroundColor} key={index} />
+				))}
 			</div>
 		</div>
 	);
 }
 
-export default Skills;
+export default function Skills() {
+	const skillItems = ['ReactJS', 'React-Native', 'NodeJS', 'Python', 'AWS Serverless'];
+	const languagesItems = [t`French skill`, t`English skill`];
+	const toolsItems = [
+		'Visual Studio Code',
+		'Xcode',
+		'Android Studio',
+		'Git',
+		'Mac, Linux, Windows',
+		'MS Office',
+	];
+	const softSkillsItems = [t`Curious`, t`Thorough`, t`Passionate`, t`Motivated`];
+
+	return (
+		<div className='h-auto w-full flex'>
+			<div className='h-auto flex-1 flex-col justify-between py-10 px-8 bg-primary'>
+				<DisplayRoundedItems
+					icon={<PencilIcon className='mr-4' height='30' width='30' />}
+					title={t`Skills`}
+					items={skillItems}
+					backgroundColor='bg-primaryOrange'
+				/>
+				<DisplayRoundedItems
+					icon={<ToolBoxIcon className='mr-4' height='30' width='30' />}
+					title={t`tools`}
+					items={toolsItems}
+					backgroundColor='bg-primaryOrange'
+				/>
+			</div>
+			<div className='h-auto flex-1 flex-col justify-between py-10 px-8 bg-primaryOrange'>
+				<DisplayRoundedItems
+					icon={<SkillsIcon className='mr-4' height='30' width='30' />}
+					title={t`soft skills`}
+					items={softSkillsItems}
+					backgroundColor='bg-primary'
+				/>
+				<DisplayRoundedItems
+					icon={<WorldIcon className='mr-4' height='30' width='30' />}
+					title={t`language skills`}
+					items={languagesItems}
+					backgroundColor='bg-primary'
+				/>
+			</div>
+		</div>
+	);
+}

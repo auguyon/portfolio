@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: src/pages/AboutMe.jsx:33
+msgid "About Me"
+msgstr "À Propos de Moi"
+
+#: src/pages/AboutMe.jsx:33
+msgid "About Me - Text"
+msgstr "Après six ans en restauration, j'ai choisi une réorientation dans le domaine du développement informatique, qui me passionne depuis mon plus jeune âge. Ainsi je rejoins l'école 42 en novembre 2018 suite à la \"Piscine\". Suite à mes stages en React et React-Native, je souhaite continuer dans le secteur du Web pour m'y améliorer et acquérir de nouvelles compétences."
+
+#: src/pages/Skills.jsx:50
+msgid "Curious"
+msgstr "Curieux"
+
+#: src/pages/Skills.jsx:41
+msgid "English skill"
+msgstr "Anglais - B2"
+
+#: src/pages/Skills.jsx:41
+msgid "French skill"
+msgstr "Français - Natal"
+
+#: src/pages/Home.jsx:15
+msgid "Full-Stack developer"
+msgstr "Développeur Full-Stack"
+
+#: src/pages/Skills.jsx:50
+msgid "Motivated"
+msgstr "Motivé"
+
+#: src/pages/AboutMe.jsx:38
+msgid "My Goals"
+msgstr "Mes Ambitions"
+
+#: src/pages/AboutMe.jsx:38
+msgid "My Goals - Text"
+msgstr "Passionné par mon métier, je souhaite m'améliorer en permanence, apprendre les \"Good Practice\" et découvrir de nouvelles technologies."
+
+#: src/pages/Skills.jsx:50
+msgid "Passionate"
+msgstr "Passioné"
+
+#: src/pages/Contact.jsx:45
+msgid "Phone"
+msgstr "06&nbsp;10&nbsp;81&nbsp;13&nbsp;09"
+
+#: src/pages/Home.jsx:17
+msgid "ReactJS, NodeJS Developer"
+msgstr "Développeur ReactJS et NodeJS"
+
+#: src/pages/Skills.jsx:57
+msgid "Skills"
+msgstr "Compétences"
+
+#: src/pages/Home.jsx:16
+msgid "Student at 42 Paris"
+msgstr "Étudiant à 42 Paris"
+
+#: src/pages/Skills.jsx:50
+msgid "Thorough"
+msgstr "Rigoureux"
+
+#: src/pages/AboutMe.jsx:30
+msgid "Welcome"
+msgstr "Bonjour, je m'appelle Aurélien."
+
+#: src/pages/AboutMe.jsx:35
+msgid "What I'm looking for"
+msgstr "Ce que je recherche"
+
+#: src/pages/AboutMe.jsx:36
+msgid "What I'm looking for - Text"
+msgstr "Actuellement à la recherche d'un stage de 6 mois dans le secteur du Web et de préférence Full-Stack."
+
+#: src/pages/Educations.jsx:82
+msgid "date resume 1"
+msgstr "2012 à 2018"
+
+#: src/pages/Educations.jsx:72
+msgid "date resume 2"
+msgstr "Novembre 2018 à maintenant"
+
+#: src/pages/Educations.jsx:62
+msgid "date resume 3"
+msgstr "Mars 2021"
+
+#: src/pages/Educations.jsx:52
+msgid "date resume 4"
+msgstr "Septembre 2020 à Mars 2021"
+
+#: src/pages/Educations.jsx:42
+msgid "date resume 5"
+msgstr "Avril à mi-Septembre 2021"
+
+#: src/pages/Educations.jsx:86
+msgid "desc resume 1"
+msgstr "Débutant par serveur, puis chef de rang et ensuite chef de salle. J'ai y gagné en autonomie, pro-activité, collaboration et en leadership."
+
+#: src/pages/Educations.jsx:76
+msgid "desc resume 2"
+msgstr "L'école 42 n'est pas une école comme on peut l'entendre. Sa pédagogie est basée sur le peer-to-peer learning : un fonctionnement participatif, sans cours, sans professeur, qui permet aux étudiant(e)s de libérer toute leur créativité grâce à l’apprentissage par projets."
+
+#: src/pages/Educations.jsx:66
+msgid "desc resume 3"
+msgstr "Développement d'un logiciel avec Python dans le but de traiter des tensions électriques contenue dans de nombreux fichiers pour le CNRS."
+
+#: src/pages/Educations.jsx:56
+msgid "desc resume 4"
+msgstr "Création de sites vitrine en React et mis en production avec AWS Amplify puis développement d'une application mobile en React-Native avec AWS serverless."
+
+#: src/pages/Educations.jsx:46
+msgid "desc resume 5"
+msgstr "Développement d'une application mobile avec React-Native et Expo. Application de mise en relation entre des cordistes et des professionels."
+
+#: src/pages/Skills.jsx:77
+msgid "language skills"
+msgstr "Langues"
+
+#: src/pages/Skills.jsx:71
+msgid "soft skills"
+msgstr "Mes qualités"
+
+#: src/pages/Educations.jsx:84
+msgid "title resume 1"
+msgstr "Serveur, Barman et Chef de salle - 6 ans"
+
+#: src/pages/Educations.jsx:74
+msgid "title resume 2"
+msgstr "Architecte en technologie du numérique."
+
+#: src/pages/Educations.jsx:64
+msgid "title resume 3"
+msgstr "Dévéloppeur logiciel - Bénévole - 1 mois"
+
+#: src/pages/Educations.jsx:54
+msgid "title resume 4"
+msgstr "Dévéloppeur Full-Stack - Stagiaire - 6 mois"
+
+#: src/pages/Educations.jsx:44
+msgid "title resume 5"
+msgstr "Dévéloppeur Mobile - Stagiaire - 5 mois"
+
+#: src/pages/Skills.jsx:63
+msgid "tools"
+msgstr "Outils"

@@ -1,22 +1,49 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import { useDencrypt } from 'use-dencrypt-effect';
+import { t } from '@lingui/macro';
 
-import workspace from "../assets/photos/workspace.png";
-import { ReactComponent as LogoAG } from "../assets/icons/ag.svg";
+import LanguageSwitch from '../components/LanguageSwitch';
+import workspace from '../assets/photos/workspace.png';
+import { ReactComponent as LogoAG } from '../assets/icons/ag.svg';
 
-function Home() {
+export default function Home({ language, setLanguage }) {
+	const options = {
+		interval: 20,
+	};
+	const { result, dencrypt } = useDencrypt(options);
+	const subtitles = [
+		t`Full-Stack developer`,
+		t`Student at 42 Paris`,
+		t`ReactJS, NodeJS Developer`,
+	];
+
+	useEffect(() => {
+		let i = 0;
+
+		const action = setInterval(() => {
+			dencrypt(subtitles[i]);
+
+			i = i === subtitles.length - 1 ? 0 : i + 1;
+		}, 4500);
+
+		return () => clearInterval(action);
+	}, []);
+
 	return (
-		<div class='h-screen w-full flex flex-col justify-between bg-primary'>
-			<div class='w-full h-auto flex flex-row justify-between items-center p-6'>
-				<LogoAG height='90' width='90' />
-				{/* <div>Contact</div> */}
+		<div className='h-screen w-full flex flex-col justify-between bg-primary'>
+			<div className='w-full h-auto flex flex-row justify-between items-center p-6'>
+				<LogoAG height='100' width='100' />
 			</div>
-			<div class='h-auto w-full flex flex-col justify-end items-center'>
-				<div>Aurelien Guyon</div>
-				<div>Full-stack developer</div>
-				<img src={workspace} class='h-32' alt='workspace aurelien guyon' />
+			<div className='absolute top-4 right-2'>
+				<LanguageSwitch language={language} setLanguage={setLanguage} />
+			</div>
+			<div className='h-auto w-full flex flex-col items-center '>
+				<div className='text-7xl coolvetica'>Aurélien Guyon</div>
+				<div className='text-4xl mt-4'>{result}</div>
+			</div>
+			<div className='h-auto w-full flex flex-col justify-end items-center'>
+				<img src={workspace} width='40%' height='40%' alt='workspace aurelien guyon' />
 			</div>
 		</div>
 	);
 }
-
-export default Home;

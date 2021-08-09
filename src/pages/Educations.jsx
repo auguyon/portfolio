@@ -1,18 +1,25 @@
-import React from "react";
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { ReactComponent as WorkIcon } from "../assets/icons/work.svg";
-import { ReactComponent as SchoolIcon } from "../assets/icons/school.svg";
-// import WorkIcon from "../assets/icons/school";
+import React from 'react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { t } from '@lingui/macro';
+import { Colors } from '../constants/Colors';
 
-function ResumeItem({ date, icon, title, city, desc }) {
+import { ReactComponent as WorkIcon } from '../assets/icons/work.svg';
+import { ReactComponent as SchoolIcon } from '../assets/icons/school.svg';
+import { ReactComponent as InternIcon } from '../assets/icons/internship.svg';
+
+function ResumeItem({ date, backgroundColor, arrowColor, mainColor, icon, title, city, desc }) {
 	return (
 		<VerticalTimelineElement
 			className='vertical-timeline-element--work'
-			contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-			contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+			contentStyle={{
+				background: backgroundColor,
+				color: '#000',
+				border: `10px solid ${mainColor}`,
+			}}
+			contentArrowStyle={{ borderRight: `10px solid ${arrowColor}` }}
 			date={date}
-			iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+			iconStyle={{ background: mainColor, color: '#000' }}
 			icon={icon}
 		>
 			<h3 className='vertical-timeline-element-title'>{title}</h3>
@@ -23,73 +30,64 @@ function ResumeItem({ date, icon, title, city, desc }) {
 }
 
 function Educations() {
+	const backgroundColor = Colors.background;
+	const schoolColor = Colors.primary;
+	const workColor = Colors.secondary;
+	const internshipColor = Colors.orange;
+
 	return (
-		<div class='h-auto w-full flex py-10 px-8 bg-green-500'>
+		<div className='h-auto w-full flex py-10 px-8 bg-primary'>
 			<VerticalTimeline>
 				<ResumeItem
-					date='09/20 - 03/21'
-					icon={<WorkIcon />}
-					title='Full-Stack developer intern'
-					city='Gardanne 13105 - France'
-					desc='Spearheaded a mobile app with React-Native and AWS serverless structure, and was the sole person responsible for its stack and development.Created two showcase websites, uploaded with AWS Amplify.'
+					date={t`date resume 5`}
+					icon={<InternIcon />}
+					title={t`title resume 5`}
+					city='Remote / Paris - France'
+					desc={t`desc resume 5`}
+					backgroundColor={backgroundColor}
+					arrowColor={backgroundColor}
+					mainColor={internshipColor}
 				/>
-				<VerticalTimelineElement
-					className='vertical-timeline-element--work'
-					contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-					contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-					date='2011 - present'
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+				<ResumeItem
+					date={t`date resume 4`}
+					icon={<InternIcon />}
+					title={t`title resume 4`}
+					city='Gardanne - France'
+					desc={t`desc resume 4`}
+					backgroundColor={backgroundColor}
+					arrowColor={backgroundColor}
+					mainColor={internshipColor}
+				/>
+				<ResumeItem
+					date={t`date resume 3`}
 					icon={<WorkIcon />}
-				>
-					<h3 className='vertical-timeline-element-title'>Creative Director</h3>
-					<h4 className='vertical-timeline-element-subtitle'>Miami, FL</h4>
-					<p>
-						Creative Direction, User Experience, Visual Design, Project Management, Team
-						Leading
-					</p>
-				</VerticalTimelineElement>
-				<VerticalTimelineElement
-					className='vertical-timeline-element--work'
-					date='2010 - 2011'
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+					title={t`title resume 3`}
+					city='Caen - France'
+					desc={t`desc resume 3`}
+					backgroundColor={backgroundColor}
+					arrowColor={backgroundColor}
+					mainColor={workColor}
+				/>
+				<ResumeItem
+					date={t`date resume 2`}
+					icon={<SchoolIcon />}
+					title={t`title resume 2`}
+					city='Paris - France'
+					desc={t`desc resume 2`}
+					backgroundColor={backgroundColor}
+					arrowColor={backgroundColor}
+					mainColor={schoolColor}
+				/>
+				<ResumeItem
+					date={t`date resume 1`}
 					icon={<WorkIcon />}
-				>
-					<h3 className='vertical-timeline-element-title'>Art Director</h3>
-					<h4 className='vertical-timeline-element-subtitle'>San Francisco, CA</h4>
-					<p>Creative Direction, User Experience, Visual Design, SEO, Online Marketing</p>
-				</VerticalTimelineElement>
-				<VerticalTimelineElement
-					className='vertical-timeline-element--work'
-					date='2008 - 2010'
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-					icon={<WorkIcon />}
-				>
-					<h3 className='vertical-timeline-element-title'>Web Designer</h3>
-					<h4 className='vertical-timeline-element-subtitle'>Los Angeles, CA</h4>
-					<p>User Experience, Visual Design</p>
-				</VerticalTimelineElement>
-				<VerticalTimelineElement
-					className='vertical-timeline-element--work'
-					date='2006 - 2008'
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-					icon={<WorkIcon />}
-				>
-					<h3 className='vertical-timeline-element-title'>Web Designer</h3>
-					<h4 className='vertical-timeline-element-subtitle'>San Francisco, CA</h4>
-					<p>User Experience, Visual Design</p>
-				</VerticalTimelineElement>
-				<VerticalTimelineElement
-					className='vertical-timeline-element--education'
-					date='April 2013'
-					iconStyle={{ background: "rgb(233, 30, 99)", color: "#000" }}
-					icon={<WorkIcon />}
-				>
-					<h3 className='vertical-timeline-element-title'>
-						Content Marketing for Web, Mobile and Social Media
-					</h3>
-					<h4 className='vertical-timeline-element-subtitle'>Online Course</h4>
-					<p>Strategy, Social Media</p>
-				</VerticalTimelineElement>
+					title={t`title resume 1`}
+					city='Caen - France'
+					desc={t`desc resume 1`}
+					backgroundColor={backgroundColor}
+					arrowColor={backgroundColor}
+					mainColor={workColor}
+				/>
 			</VerticalTimeline>
 		</div>
 	);

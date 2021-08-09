@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: src/pages/AboutMe.jsx:33
+msgid "About Me"
+msgstr "About Me"
+
+#: src/pages/AboutMe.jsx:33
+msgid "About Me - Text"
+msgstr "After six years in the restaurant business, I have reoriented into the field of computer development, which has fascinated me from a young age. I joined the innovative school \"42\" in November 2018. After my internships in React and React-Native, I wish to continue in the field of Web to improve myself and acquire new skills."
+
+#: src/pages/Skills.jsx:50
+msgid "Curious"
+msgstr "Curious"
+
+#: src/pages/Skills.jsx:41
+msgid "English skill"
+msgstr "English - B2"
+
+#: src/pages/Skills.jsx:41
+msgid "French skill"
+msgstr "French - Natal"
+
+#: src/pages/Home.jsx:15
+msgid "Full-Stack developer"
+msgstr "Full-Stack developer"
+
+#: src/pages/Skills.jsx:50
+msgid "Motivated"
+msgstr "Motivated"
+
+#: src/pages/AboutMe.jsx:38
+msgid "My Goals"
+msgstr "My Goals"
+
+#: src/pages/AboutMe.jsx:38
+msgid "My Goals - Text"
+msgstr "Passionate about my job, I want to constantly improve myself, learn the "Good Practice" and discover new technologies."
+
+#: src/pages/Skills.jsx:50
+msgid "Passionate"
+msgstr "Passionate"
+
+#: src/pages/Contact.jsx:45
+msgid "Phone"
+msgstr "+336&nbsp;10&nbsp;81&nbsp;13&nbsp;09"
+
+#: src/pages/Home.jsx:11
+#~ msgid "ReactJS and NodeJS Developer"
+#~ msgstr "ReactJS and NodeJS Developer"
+
+#: src/pages/Home.jsx:17
+msgid "ReactJS, NodeJS Developer"
+msgstr "ReactJS and NodeJS Developer"
+
+#: src/pages/Skills.jsx:57
+msgid "Skills"
+msgstr "Skills"
+
+#: src/pages/Skills.jsx:49
+#~ msgid "Spanish skill"
+#~ msgstr "Spanish - Beginner"
+
+#: src/pages/Home.jsx:16
+msgid "Student at 42 Paris"
+msgstr "Student at 42 Paris"
+
+#: src/pages/Skills.jsx:50
+msgid "Thorough"
+msgstr "Thorough"
+
+#: src/pages/AboutMe.jsx:30
+msgid "Welcome"
+msgstr "Hi, I’m Aurélien. Nice to meet you."
+
+#: src/pages/AboutMe.jsx:35
+msgid "What I'm looking for"
+msgstr "What I'm looking for"
+
+#: src/pages/AboutMe.jsx:36
+msgid "What I'm looking for - Text"
+msgstr "Currently looking for a 6 month internship for mid-September in Web development and preferably Full-Stack."
+
+#: src/pages/Educations.jsx:82
+msgid "date resume 1"
+msgstr "2012 to 2018"
+
+#: src/pages/Educations.jsx:72
+msgid "date resume 2"
+msgstr "November 2018 to present"
+
+#: src/pages/Educations.jsx:62
+msgid "date resume 3"
+msgstr "March 2021"
+
+#: src/pages/Educations.jsx:52
+msgid "date resume 4"
+msgstr "September 2020 to March 2021"
+
+#: src/pages/Educations.jsx:42
+msgid "date resume 5"
+msgstr "April to mid-September 2021"
+
+#: src/pages/Educations.jsx:86
+msgid "desc resume 1"
+msgstr "Worked for 6 years as a waiter and was promoted to the top-ranking position, where I gained invaluable autonomy, pro-activity, leadership and collaboration skills."
+
+#: src/pages/Educations.jsx:76
+msgid "desc resume 2"
+msgstr "42 is not a traditional school, but a university of self-motivated learners. There are no teachers or classes, only projects to be solved alone and/or in small groups in a peer-to-peer learning environment. The projects given by the school challenged us to solve problems that required self-initiated research with other students and on the Internet. The projects are then corrected by students and by an automatic program. The corrections are very strict: no unexpected behavior, no errors, no crashes, no leaks, and have to be normed. Any errors will lead to a zero."
+
+#: src/pages/Educations.jsx:66
+msgid "desc resume 3"
+msgstr "Creation of a Python software for the treatment of tension contained in many files for the CNRS laboratory."
+
+#: src/pages/Educations.jsx:56
+msgid "desc resume 4"
+msgstr "Spearheaded a mobile app with React-Native and AWS serverless structure, and was the sole person responsible for its stack and development then created two showcase websites, uploaded with AWS Amplify."
+
+#: src/pages/Educations.jsx:46
+msgid "desc resume 5"
+msgstr "Developing a mobile application with React-Native. Application to match rope access technicians and professionals."
+
+#: src/pages/Skills.jsx:77
+msgid "language skills"
+msgstr "language skills"
+
+#: src/pages/Skills.jsx:71
+msgid "soft skills"
+msgstr "Personnal qualities"
+
+#: src/pages/Educations.jsx:84
+msgid "title resume 1"
+msgstr "Waiter, Bartender then \"Chef de salle\""
+
+#: src/pages/Educations.jsx:74
+msgid "title resume 2"
+msgstr "Software engineer"
+
+#: src/pages/Educations.jsx:64
+msgid "title resume 3"
+msgstr "Software developer - Volunteer - 1 month"
+
+#: src/pages/Educations.jsx:54
+msgid "title resume 4"
+msgstr "Full-Stack and Mobile developer - Intern - 6 months"
+
+#: src/pages/Educations.jsx:44
+msgid "title resume 5"
+msgstr "Mobile developer - Intern - 5 months"
+
+#: src/pages/Skills.jsx:63
+msgid "tools"
+msgstr "Tools"

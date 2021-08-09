@@ -4,17 +4,18 @@
 	"private": true,
 	"dependencies": {
 		"@craco/craco": "^6.1.1",
+		"@lingui/react": "^3.8.3",
 		"@testing-library/jest-dom": "^5.11.9",
 		"@testing-library/react": "^11.2.5",
 		"@testing-library/user-event": "^12.7.1",
 		"i18next": "^19.8.9",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"react-flags-select": "^2.1.2",
 		"react-i18next": "^9.0.10",
 		"react-scripts": "4.0.2",
-		"react-scroll": "^1.8.2",
+		"react-switch": "^6.0.0",
 		"react-vertical-timeline-component": "^3.3.3",
+		"use-dencrypt-effect": "^1.0.2",
 		"web-vitals": "^1.1.0"
 	},
 	"scripts": {
@@ -42,9 +43,12 @@
 		]
 	},
 	"devDependencies": {
+		"@lingui/loader": "^3.10.2",
+		"@lingui/macro": "^3.8.9",
 		"@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.3",
 		"autoprefixer": "^9.8.6",
 		"postcss": "^7.0.35",
+		"prop-types": "^15.7.2",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
 	}
 }

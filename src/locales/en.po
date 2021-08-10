@@ -35,6 +35,10 @@ msgstr "French - Natal"
 msgid "Full-Stack developer"
 msgstr "Full-Stack developer"
 
+#: src/pages/Footer.jsx:12
+msgid "Logo Made"
+msgstr "Logo made by Phanton_Studio"
+
 #: src/pages/Skills.jsx:50
 msgid "Motivated"
 msgstr "Motivated"
@@ -45,7 +49,7 @@ msgstr "My Goals"
 
 #: src/pages/AboutMe.jsx:38
 msgid "My Goals - Text"
-msgstr "Passionate about my job, I want to constantly improve myself, learn the "Good Practice" and discover new technologies."
+msgstr "Passionate about my job, I want to constantly improve myself, learn the \"Good Practice\" and discover new technologies."
 
 #: src/pages/Skills.jsx:50
 msgid "Passionate"
@@ -53,7 +57,7 @@ msgstr "Passionate"
 
 #: src/pages/Contact.jsx:45
 msgid "Phone"
-msgstr "+336&nbsp;10&nbsp;81&nbsp;13&nbsp;09"
+msgstr "+336 10 81 13 09"
 
 #: src/pages/Home.jsx:11
 #~ msgid "ReactJS and NodeJS Developer"
@@ -78,6 +82,10 @@ msgstr "Student at 42 Paris"
 #: src/pages/Skills.jsx:50
 msgid "Thorough"
 msgstr "Thorough"
+
+#: src/pages/Footer.jsx:7
+msgid "Website made"
+msgstr "Made by Aurélien Guyon with ReactJS and TailwindCSS"
 
 #: src/pages/AboutMe.jsx:30
 msgid "Welcome"

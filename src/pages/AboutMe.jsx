@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans, t } from '@lingui/macro';
 
 import HorizontalLine from '../components/HorizontalLine';
-import profile from '../assets/photos/profile.jpeg';
+import profile from '../assets/photos/profile.jpg';
 
 function DisplayText({ title, text }) {
 	return (
@@ -22,7 +22,7 @@ export default function AboutMe() {
 			<img
 				src={profile}
 				alt='photo de profile'
-				className='rounded-full'
+				className='rounded-full flex items-center justify-center'
 				height='250'
 				width='250'
 			/>

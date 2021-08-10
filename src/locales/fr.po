@@ -35,6 +35,10 @@ msgstr "Français - Natal"
 msgid "Full-Stack developer"
 msgstr "Développeur Full-Stack"
 
+#: src/pages/Footer.jsx:12
+msgid "Logo Made"
+msgstr "Logo fait par Phanton_Studio"
+
 #: src/pages/Skills.jsx:50
 msgid "Motivated"
 msgstr "Motivé"
@@ -53,7 +57,7 @@ msgstr "Passioné"
 
 #: src/pages/Contact.jsx:45
 msgid "Phone"
-msgstr "06&nbsp;10&nbsp;81&nbsp;13&nbsp;09"
+msgstr "06 10 81 13 09"
 
 #: src/pages/Home.jsx:17
 msgid "ReactJS, NodeJS Developer"
@@ -70,6 +74,10 @@ msgstr "Étudiant à 42 Paris"
 #: src/pages/Skills.jsx:50
 msgid "Thorough"
 msgstr "Rigoureux"
+
+#: src/pages/Footer.jsx:7
+msgid "Website made"
+msgstr "Site web crée par Aurélien Guyon avec ReactJS et TailwindCSS"
 
 #: src/pages/AboutMe.jsx:30
 msgid "Welcome"

@@ -17,7 +17,7 @@ msgstr "About Me"
 
 #: src/pages/AboutMe.jsx:33
 msgid "About Me - Text"
-msgstr "After six years in the restaurant business, I have reoriented into the field of computer development, which has fascinated me from a young age. I joined the innovative school \"42\" in November 2018. After my internships in React and React-Native, I wish to continue in the field of Web to improve myself and acquire new skills."
+msgstr "After six years in the restaurant business, I have reoriented into the field of computer development, which has fascinated me from a young age. I joined the innovative school \"42\" in November 2018. After 3 internships as a Full-stack developer, I'm looking for an apprenticeship in the Blockchain field, for which I have a great passion."
 
 #: src/pages/Skills.jsx:50
 msgid "Curious"
@@ -31,7 +31,7 @@ msgstr "English - B2"
 msgid "French skill"
 msgstr "French - Natal"
 
-#: src/pages/Home.jsx:15
+#: src/pages/Home.jsx:16
 msgid "Full-Stack developer"
 msgstr "Full-Stack developer"
 
@@ -57,13 +57,13 @@ msgstr "Passionate"
 
 #: src/pages/Contact.jsx:45
 msgid "Phone"
-msgstr "+336 10 81 13 09"
+msgstr "+33 6 10 81 13 09"
 
 #: src/pages/Home.jsx:11
 #~ msgid "ReactJS and NodeJS Developer"
 #~ msgstr "ReactJS and NodeJS Developer"
 
-#: src/pages/Home.jsx:17
+#: src/pages/Home.jsx:18
 msgid "ReactJS, NodeJS Developer"
 msgstr "ReactJS and NodeJS Developer"
 
@@ -75,7 +75,7 @@ msgstr "Skills"
 #~ msgid "Spanish skill"
 #~ msgstr "Spanish - Beginner"
 
-#: src/pages/Home.jsx:16
+#: src/pages/Home.jsx:17
 msgid "Student at 42 Paris"
 msgstr "Student at 42 Paris"
 
@@ -97,47 +97,47 @@ msgstr "What I'm looking for"
 
 #: src/pages/AboutMe.jsx:36
 msgid "What I'm looking for - Text"
-msgstr "Currently looking for a 6 month internship for mid-September in Web development and preferably Full-Stack."
+msgstr "Currently looking for a one year apprenticeship for August in Web and Blockchain sector."
 
-#: src/pages/Educations.jsx:82
-msgid "date resume 1"
+#: src/pages/Educations.jsx:92
+msgid "date restauration"
 msgstr "2012 to 2018"
 
-#: src/pages/Educations.jsx:72
-msgid "date resume 2"
+#: src/pages/Educations.jsx:82
+msgid "date 42"
 msgstr "November 2018 to present"
 
 #: src/pages/Educations.jsx:62
-msgid "date resume 3"
-msgstr "March 2021"
-
-#: src/pages/Educations.jsx:52
-msgid "date resume 4"
+msgid "date tdf"
 msgstr "September 2020 to March 2021"
 
-#: src/pages/Educations.jsx:42
-msgid "date resume 5"
+#: src/pages/Educations.jsx:52
+msgid "date alier"
 msgstr "April to mid-September 2021"
 
-#: src/pages/Educations.jsx:86
-msgid "desc resume 1"
+#: src/pages/Educations.jsx:42
+msgid "date ubisoft"
+msgstr "October 2021 to March 2022"
+
+#: src/pages/Educations.jsx:96
+msgid "desc restauration"
 msgstr "Worked for 6 years as a waiter and was promoted to the top-ranking position, where I gained invaluable autonomy, pro-activity, leadership and collaboration skills."
 
-#: src/pages/Educations.jsx:76
-msgid "desc resume 2"
+#: src/pages/Educations.jsx:86
+msgid "desc 42"
 msgstr "42 is not a traditional school, but a university of self-motivated learners. There are no teachers or classes, only projects to be solved alone and/or in small groups in a peer-to-peer learning environment. The projects given by the school challenged us to solve problems that required self-initiated research with other students and on the Internet. The projects are then corrected by students and by an automatic program. The corrections are very strict: no unexpected behavior, no errors, no crashes, no leaks, and have to be normed. Any errors will lead to a zero."
 
 #: src/pages/Educations.jsx:66
-msgid "desc resume 3"
-msgstr "Creation of a Python software for the treatment of tension contained in many files for the CNRS laboratory."
-
-#: src/pages/Educations.jsx:56
-msgid "desc resume 4"
+msgid "desc tdf"
 msgstr "Spearheaded a mobile app with React-Native and AWS serverless structure, and was the sole person responsible for its stack and development then created two showcase websites, uploaded with AWS Amplify."
 
-#: src/pages/Educations.jsx:46
-msgid "desc resume 5"
+#: src/pages/Educations.jsx:56
+msgid "desc alier"
 msgstr "Developing a mobile application with React-Native. Application to match rope access technicians and professionals."
+
+#: src/pages/Educations.jsx:46
+msgid "desc ubisoft"
+msgstr "Improvement and addition of features on a back office of the Paris Mobile Studio. We used React Admin to build the back office"
 
 #: src/pages/Skills.jsx:77
 msgid "language skills"
@@ -147,25 +147,25 @@ msgstr "language skills"
 msgid "soft skills"
 msgstr "Personnal qualities"
 
-#: src/pages/Educations.jsx:84
-msgid "title resume 1"
+#: src/pages/Educations.jsx:94
+msgid "title restauration"
 msgstr "Waiter, Bartender then \"Chef de salle\""
 
-#: src/pages/Educations.jsx:74
-msgid "title resume 2"
+#: src/pages/Educations.jsx:84
+msgid "title 42"
 msgstr "Software engineer"
 
 #: src/pages/Educations.jsx:64
-msgid "title resume 3"
-msgstr "Software developer - Volunteer - 1 month"
-
-#: src/pages/Educations.jsx:54
-msgid "title resume 4"
+msgid "title tdf"
 msgstr "Full-Stack and Mobile developer - Intern - 6 months"
 
-#: src/pages/Educations.jsx:44
-msgid "title resume 5"
+#: src/pages/Educations.jsx:54
+msgid "title alier"
 msgstr "Mobile developer - Intern - 5 months"
+
+#: src/pages/Educations.jsx:44
+msgid "title ubisoft"
+msgstr "Full-Stack developer - Intern - 6 months"
 
 #: src/pages/Skills.jsx:63
 msgid "tools"
